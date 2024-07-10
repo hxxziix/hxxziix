@@ -1,7 +1,5 @@
-# Github Header 꾸미기
-
-## 기본 사용 방법
-
+# 1. 기본
+## 사용 예시
 **Markdown**
 
 ```md
@@ -14,357 +12,470 @@
 <img src="https://capsule-render.vercel.app/api? />
 ```
 
-## 모양
+# 2. 모양 `type=`
 
-1. wave(default)
-2. egg
-3. shark
-4. slice
-5. rect
-6. soft
-7. rounded
-8. cylinder
-9. waving
-10. venom
-11. transparent
+1. `wave`(default)
+2. `egg`
+3. `shark`
+4. `slice`
+5. `rect`
+6. `soft`
+7. `rounded`
+8. `cylinder`
+9. `waving`
+10. `venom`
+11. `transparent`
 
-### 사용예시
+## 사용예시
 
 **Markdown**
 
-`![header](https://capsule-render.vercel.app/api?type=wave)`
+```md
+![header](https://capsule-render.vercel.app/api?type=wave)
+```
 
 **HTML**
 
-`<img src="https://capsule-render.vercel.app/api?type=wave />`
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave />
+```
 
 
-## 색상
-`color=`
+# 배경 색상 `color=`
 
-- **auto: 자동 색상 무작위 변경**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=auto)`
-
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=auto />`
-
-- **timeAuto: 시간에 따라 무작위 색상 변경**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=timeAuto)`
-    
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=timeAuto />`
-- **random: 무작위 색상**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=random)`
-    
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=random />`
-- **gradient: 그라데이션**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=gradient)`
-    
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=gradient />`
-
-- **timeGradient: 시간에 따라 그라데이션**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=timeGradient)`
-    
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=timeGradient />`
-- **_hexcode: 기본값(#B897FF)**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF)`
-    
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF />`
-
-- **_custom_gradient: 사용자 정의 그라데이션**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8)`
-    
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8 />`
-
-## 부분(섹션)
-
-`section=`
-
-- **header: (기본)**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=header)`
-    
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=header />`
-
-- **footer**
-
-    **MarkDown**
-
-    `![header](https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=footer)`
-    
-    **HTML**
-
-    `<img src="https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=footer />`
+### `auto`: 자동 색상 무작위 변경
 
 
-## 높이
-`height=`: default 120
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto />
+```
+
+## `timeAuto`: 시간에 따라 무작위 색상 변경
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=timeAuto)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=timeAuto />
+```
+## `random`: 무작위 색상
+
+**MarkDown**
+
+ ```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=random)
+```
+  
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=random />
+```
+
+## `gradient`: 그라데이션
 
   **MarkDown**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=footer&height=100)`
+  ```md
+  ![header](https://capsule-render.vercel.app/api?type=wave&color=gradient)
+  ```
   
   **HTML**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=footer&height=100 />`
+  ```html
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient />
+  ```
 
-## 텍스트
-`text=`
-
-- `%20`: 공백
+## `timeGradient`: 시간에 따라 그라데이션
 
   **MarkDown**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘%20셋)`
+  ```md
+  ![header](https://capsule-render.vercel.app/api?type=wave&color=timeGradient)
+  ```
   
   **HTML**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘%20셋 />`
-
-- `-nl-`: 줄바꿈
+  ```html
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=timeGradient />
+  ```
+## `_hexcode`: 기본값(#B897FF)
 
   **MarkDown**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋)`
+  ```md
+  ![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF)
+  ```
   
   **HTML**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋 />`
+  ```html
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF />
+  ```
 
-## 설명(줄 추가)
+## `_custom_gradient`: 사용자 정의 그라데이션
 
-`desc=`
+  **MarkDown**
+
+  ```md
+  ![header](https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8)
+  ```
+  
+  **HTML**
+
+  ```html
+  <img src="https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8 />
+  ```
+
+# 부분(섹션) `section=`
+- 배경 위치
+
+## `header`: 상단(기본)
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=header)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=header />
+```
+
+## `footer`: 하단
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=footer)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=footer />
+```
+
+
+# 높이 `height=`
+- default 120
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=footer&height=100)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0:B897FF,100:a82da8&section=footer&height=100 />
+```
+
+# 텍스트 `text=`
+- 제목 글
+
+## `%20`: 공백
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘%20셋)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘%20셋 />
+```
+
+## `-nl-`: 줄바꿈
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋 />
+```
+
+# 설명(줄 추가) `desc=`
 
 * 특수문자 사용 불가
 * 일반적으로 공백(%20)만 사용함
 
-  **MarkDown**
+**MarkDown**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글)`
-  
-  **HTML**
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글)
+```
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글 />`
+**HTML**
 
-## 텍스트 애니메이션
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글 />
+```
 
-`animation=`
-- **fadeIn: 페이드인 1.2초**
+# 텍스트 애니메이션 `animation=`
 
-  **MarkDown**
+## `fadeIn`: 페이드인 1.2초
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=fadeIn)`
-  
-  **HTML**
+**MarkDown**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=fadeIn />`
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=fadeIn)
+```
 
-- **scaleIn: 날라옴 0.8초**
+**HTML**
 
-  **MarkDown**
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=fadeIn />
+```
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=scaleIn)`
-  
-  **HTML**
+## `scaleIn`: 날라옴 0.8초
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=scaleIn />`
+**MarkDown**
 
-- **blink: 깜박임 0.6초**
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=scaleIn)
+```
 
-  **MarkDown**
+**HTML**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=blink)`
-  
-  **HTML**
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=scaleIn />
+```
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=blink />`
+## `blink`: 깜박임 0.6초
 
-- **blinking: 깜박임 1.6초**
+**MarkDown**
 
-  **MarkDown**
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=blink)
+```
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=blinking)`
-  
-  **HTML**
+**HTML**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=blinking />`
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=blink />
+```
 
-- **twinkling: 반짝임 4초**
+## `blinking`: 깜박임 1.6초
 
-  **MarkDown**
+**MarkDown**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=twinkling)`
-  
-  **HTML**
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=blinking)
+```
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=twinkling />`
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=blinking />
+```
+
+## `twinkling`: 반짝임 4초
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=twinkling)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=하나둘-nl-셋&desc=설명글&animation=twinkling />
+```
 
 
-## 제목 글자 색상
-`fontColor=`
-
-  **MarkDown**
-
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000)`
-  
-  **HTML**
-
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000 />`
-
+# 제목 글자 색상 `fontColor=`
 - 값은 "#"없이 16진수 코드여야 함
 - 텍스트쿼리 뒤에 쓰기
+## 사용 예시
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000 />
+```
 
 
-## 제목 글자 크기
 
-`fontSize=`default = 70
 
-  **MarkDown**
-
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50)`
-  
-  **HTML**
-
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50 />`
-
+# 제목 글자 크기 `fontSize=`
+- default = 70
 - 텍스트 쿼리 뒤에 쓰기
 
-## 제목 글자 위치 조정
+## 사용 예시
+**MarkDown**
 
-### x축 조정
-`fontAlign=`default 50
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50)
+```
 
-  **MarkDown**
+**HTML**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50&fontAlign=20)`
-  
-  **HTML**
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50 />
+```
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50&fontAlign=20 />`
+# 제목 글자 위치 조정
 
-### y축 조정
-`fontAlignY=`default 50
+## x축 조정 `fontAlign=`
+- default 50
 
-  **MarkDown**
+## 사용 예시
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50&fontAlignY=20)`
-  
-  **HTML**
+**MarkDown**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50&fontAlignY=20 />`
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50&fontAlign=20)
+```
 
-## 설명 글자 크기
+**HTML**
 
-`descSize=`default = 20
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50&fontAlign=20 />
+```
 
-  **MarkDown**
+## y축 조정 `fontAlignY=`
+- default 50
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50)`
-  
-  **HTML**
+## 사용예시
+**MarkDown**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50 />`
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50&fontAlignY=20)
+```
 
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&text=제%20목&fontColor=000000&fontSize=50&fontAlignY=20 />
+```
+
+# 설명 글자 크기 `descSize=`
+- default = 20
 - desc쿼리 뒤에 쓰기
 
+**MarkDown**
 
-## 설명 위치 조정
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50)
+```
 
-### x축 조정
-`descAlign=`default 50
+**HTML**
 
-  **MarkDown**
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50 />
+```
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlign=30)`
-  
-  **HTML**
+# 설명 위치 조정
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlign=30 />`
+## x축 조정 `descAlign=`
+- default 50
 
-### y축 조정
-`descAlignY=`default 50
+**MarkDown**
 
-  **MarkDown**
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlign=30)
+```
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlignY=30)`
-  
-  **HTML**
+**HTML**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlignY=30 />`
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlign=30 />
+```
 
-## 회전
-`rotate=`(-360 ~ 360)
+## y축 조정 `descAlignY=`
+- default 50
 
-  **MarkDown**
+**MarkDown**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlignY=30&rotate=60)`
-  
-  **HTML**
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlignY=30)
+```
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlignY=30&rotate=60 />`
+**HTML**
 
-## 텍스트 외곽 선
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlignY=30 />
+```
 
-### 글자 외곽 색상 변경
-`stroke=`
+# 회전 `rotate=`
+- -360 ~ 0
+- 0 ~ 360
 
-  **MarkDown**
+**MarkDown**
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845)`
-  
-  **HTML**
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlignY=30&rotate=60)
+```
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845 />`
+**HTML**
 
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&desc=설명글&descSize=50&descAlignY=30&rotate=60 />
+```
+
+# 글자 외곽 색상 변경 `stroke=`
 - #이 없는 16진수 색상코드
 
-### 글자 외곽 색상 폭
+## 사용예시
 
-`strokeWidth=`
+**MarkDown**
 
-  **MarkDown**
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845)
+```
 
-  `![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845&strokeWidth=3)`
-  
-  **HTML**
+**HTML**
 
-  `<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845&strokeWidth=3 />`
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845 />
+```
 
+
+# 글자 외곽 색상 폭 `strokeWidth=`
 - stroke 쿼리 뒤에 쓰기
+
+## 사용 예시
+
+**MarkDown**
+
+```md
+![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845&strokeWidth=3)
+```
+
+**HTML**
+
+```html
+<img src="https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845&strokeWidth=3 />
+```
+

@@ -1,7 +1,7 @@
 
 <!-- <img src="https://capsule-render.vercel.app/api?type=slice&color=black&height=300&section=header&text=Hyejin%20Yun&fontColor=999999&fontSize=90&&animation=twinkling" /> -->
 
-![header](https://capsule-render.vercel.app/api?type=wave&color=B897FF&fontColor=1111&text=글%20자&stroke=888845&strokeWidth=4)
+![header](https://capsule-render.vercel.app/api?type=slice&color=0:ffffff,50:193150,100:194261&fontColor=1111&height=200&text=Hyejin%20Yun&fontSize=50&stroke=ffffff&strokeWidth=1&fontAlign=84&fontAlignY=35&rotate=13&animation=twinkling)
 
 
 ## 💡Contacts
