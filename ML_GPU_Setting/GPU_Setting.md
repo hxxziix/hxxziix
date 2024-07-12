@@ -125,3 +125,13 @@ import torch
 print(torch.backends.cudnn.enabled)
 print(torch.backends.cudnn.version())
 ```
+
+**아래 코드 실행 시 출력 정보와 동일하게 나오면 성공**
+
+```py
+import ultralytics
+ultralytics.checks()
+
+```
+**출력 정보**
+![image](14.png)
