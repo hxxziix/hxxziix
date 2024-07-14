@@ -25,8 +25,8 @@
 - Compute Capability - 8.9
 
 ## CUDA Toolkit Download
-- 아래 사이트에서 사양에 맞는 버전 확인
-- CUDA Toolkit 버전에 맞는 PyTorch 버전 확인 필요!
+1. 아래 사이트에서 사양에 맞는 버전 확인
+2. CUDA Toolkit 버전에 맞는 PyTorch 버전 확인 필요!
 
     **CUDA Toolkit 설치 사이트**
 
