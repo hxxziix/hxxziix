@@ -5,7 +5,9 @@
 
 
 ## 💡Contacts
-<a href="mailto:hxxziix@gmail.com" target="_blank"><img src="https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+- ✉️ Email : hxxziix@gmail.com
+<!-- - 📕 Notion :  -->
+- 📚 Blog : https://velog.io/@hxxziix
 
 <a href="https://velog.io/@hxxziix"><img src="https://img.shields.io/badge/velog-20C997?style=for-the-badge&logo=velog&logoColor=white">
 
